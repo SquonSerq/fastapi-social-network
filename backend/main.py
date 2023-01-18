@@ -9,6 +9,6 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-	return {"Hello": "Wosrld"}
+	return {"Hello": "Webtronics!"}
 
 app.include_router(api.api_router)
